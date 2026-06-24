@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class SignUpPage extends StatefulWidget {
-  static route() =>
+  static MaterialPageRoute<dynamic> route() =>
       MaterialPageRoute(builder: (BuildContext context) => SignUpPage());
 
   const SignUpPage({super.key});

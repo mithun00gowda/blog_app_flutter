@@ -5,7 +5,7 @@ import 'package:blog_app/features/auth/presentation/widgets/auth_gradient_button
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
-  static route() =>
+  static MaterialPageRoute<dynamic> route() =>
       MaterialPageRoute(builder: (BuildContext context) => LoginPage());
 
   const LoginPage({super.key});
