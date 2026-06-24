@@ -16,6 +16,7 @@ Future<void> initDependencies() async {
     publishableKey: AppSecrets.publishableKey,
   );
   serviceLocated.registerLazySingleton(() => supabase.client);
+  _initAuth();
 }
 
 void _initAuth() {
