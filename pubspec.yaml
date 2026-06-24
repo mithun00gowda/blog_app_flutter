@@ -12,6 +12,7 @@ dependencies:
   fpdart:
   supabase_flutter:
   flutter_bloc:
+  get_it: 
 
 dev_dependencies:
   flutter_test:
